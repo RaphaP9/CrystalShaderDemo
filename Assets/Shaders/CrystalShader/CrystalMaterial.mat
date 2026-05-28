@@ -21,7 +21,7 @@ Material:
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  m_LockedProperties: 
+  m_LockedProperties: _Smoothness
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -128,7 +128,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ColorVariation: 0.274
+    - _ColorVariation: 0.3
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -149,7 +149,7 @@ Material:
     - _QueueOffset: 0
     - _REFFERENCEVECTORTYPE: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 1
+    - _Smoothness: 0.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -165,7 +165,7 @@ Material:
     - _VertexDisplacementStrenght: 0
     - _VoronoiBlendingNoiseScale: 500
     - _VoronoiBlendingNoiseStrength: 0.15
-    - _VoronoiMetric: 0.176
+    - _VoronoiMetric: 0
     - _VoronoiNormalMask: 1
     - _VoronoiNormalStrength: 1
     - _VoronoiRandomness: 1
@@ -173,7 +173,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.44684577, g: 0.060062904, b: 0.7490196, a: 1}
+    - _BaseColor: {r: 0.4424529, g: 0.07075471, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FresnelColor: {r: 113.831924, g: 15.69812, b: 256, a: 1}

@@ -1234,7 +1234,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 5.0,
+    "m_Value": 1.75,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 1.0,
@@ -1275,7 +1275,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.800000011920929,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -1547,10 +1547,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "286eeba8144f4dd9b8d0cf570605ef5b",
     "m_Id": 4,
-    "m_DisplayName": "ColorGrayScale",
+    "m_DisplayName": "CellColorGrayScale",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "ColorGrayScale",
+    "m_ShaderOutputName": "CellColorGrayScale",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -1580,10 +1580,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "2b952e865dca4991b0a1b815df943841",
     "m_Id": 3,
-    "m_DisplayName": "CoordTS",
+    "m_DisplayName": "NormalTS",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "CoordTS",
+    "m_ShaderOutputName": "NormalTS",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
@@ -1806,7 +1806,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.800000011920929,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -1849,7 +1849,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.5,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -2047,7 +2047,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 1.0,
+    "m_Value": 5.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.10000000149011612,
@@ -2332,7 +2332,7 @@
     "m_Group": {
         "m_Id": "db5ab21b734a4493a1d0e0a67bd9cbfc"
     },
-    "m_Name": "VoronoiGeneratorSubGraph",
+    "m_Name": "VoronoiNormalsGeneratorSubGraph",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -3059,7 +3059,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": true
+    "m_Value": false
 }
 
 {
@@ -3098,7 +3098,7 @@
     "m_ObjectId": "79c0d8ea5cc94499b1b8486c535a1bf7",
     "m_Title": "Fresnel",
     "m_Position": {
-        "x": -1156.9998779296875,
+        "x": -1157.0,
         "y": -696.0
     }
 }
@@ -3179,10 +3179,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "7e869c6ee5c746eeae353118e57848fb",
     "m_Id": 5,
-    "m_DisplayName": "Distance",
+    "m_DisplayName": "DistanceToFeaturePoint",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "Distance",
+    "m_ShaderOutputName": "DistanceToFeaturePoint",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -3467,10 +3467,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "8ca58be3b295470f8565369d86e3ae23",
     "m_Id": 1,
-    "m_DisplayName": "CoordOS",
+    "m_DisplayName": "NormalOS",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "CoordOS",
+    "m_ShaderOutputName": "NormalOS",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
@@ -3808,10 +3808,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "a4cea5fdca174be793b0b13192d0db18",
     "m_Id": 2,
-    "m_DisplayName": "Color",
+    "m_DisplayName": "CellColor",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "Color",
+    "m_ShaderOutputName": "CellColor",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
@@ -4242,7 +4242,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 1.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -4274,7 +4274,7 @@
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 3.0
+        "y": 2.0
     }
 }
 
@@ -4393,7 +4393,7 @@
     "m_ObjectId": "c4e43da242cd402b995dc80dd4599774",
     "m_Title": "Color",
     "m_Position": {
-        "x": -1415.9998779296875,
+        "x": -1416.0,
         "y": -212.0
     }
 }
@@ -4921,8 +4921,8 @@
     "m_ObjectId": "db5ab21b734a4493a1d0e0a67bd9cbfc",
     "m_Title": "Voronoi Generator",
     "m_Position": {
-        "x": -1964.999755859375,
-        "y": 205.99993896484376
+        "x": -1965.0,
+        "y": 206.00003051757813
     }
 }
 
@@ -5108,7 +5108,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.0,
+    "m_Value": 0.10000000149011612,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
