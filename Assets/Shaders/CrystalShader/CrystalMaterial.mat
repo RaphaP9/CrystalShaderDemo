@@ -170,6 +170,8 @@ Material:
     - _Surface: 1
     - _UseBlendingNoise: 1
     - _UseFresnel: 1
+    - _UseSmoothstepBaseColor: 0
+    - _UseSmoothstepDistance: 0
     - _VertexDisplacementNoiseScale: 1
     - _VertexDisplacementStrenght: 0
     - _VoronoiBlendingNoiseScale: 500
@@ -185,14 +187,14 @@ Material:
     - _ZWriteControl: 1
     m_Colors:
     - _BaseColor: {r: 0.05197947, g: 0.033018887, b: 1, a: 1}
-    - _BaseColorA: {r: 0.03003788, g: 0, b: 1, a: 1}
-    - _BaseColorB: {r: 0.03137255, g: 0, b: 1, a: 1}
+    - _BaseColorA: {r: 0, g: 0.32773182, b: 8.47419, a: 1}
+    - _BaseColorB: {r: 0.8676111, g: 0.14839067, b: 1.4980392, a: 1}
     - _CellsColor: {r: 0, g: 0.57338464, b: 0.8490566, a: 1}
     - _CentersColor: {r: 0.2689632, g: 0.13725491, b: 0.8, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EdgesColor: {r: 0, g: 17.049831, b: 47.937256, a: 1}
+    - _EdgesColor: {r: 0, g: 34.099663, b: 95.87451, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 0, g: 8.057453, b: 33.89676, a: 1}
+    - _FresnelColor: {r: 0, g: 22.789919, b: 95.87451, a: 1}
     - _PrimaryColor: {r: 0, g: 0.32773182, b: 8.47419, a: 1}
     - _SecondaryColor: {r: 0.8676111, g: 0.14839067, b: 1.4980392, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
