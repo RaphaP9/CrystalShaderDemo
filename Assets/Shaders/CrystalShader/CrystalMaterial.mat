@@ -13,11 +13,13 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
   - _REFFERENCEVECTORTYPE_NORMALOS
+  - _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2000
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -122,25 +124,32 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _AmbientOclussion: 0.1
+    - _AmbientOclussion: 0.3
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
+    - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ColorLiftFactor: 0.9
+    - _ColorMultiplier: 0
+    - _ColorNoiseScale: 30
+    - _ColorPower: 2.5
     - _ColorVariation: 0.3
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DstBlend: 0
+    - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FresnelPower: 6
+    - _FresnelPower: 6.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Metallic: 0.8
+    - _Metallic: 0.7
+    - _NoiseIntensity: 0
+    - _NoiseScale: 1
     - _NormalInfluence: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -158,9 +167,9 @@ Material:
     - _StrokeBlendingNoiseStrength: 0
     - _StrokeRandomness: 2
     - _StrokeScale: 9.5
-    - _Surface: 0
+    - _Surface: 1
     - _UseBlendingNoise: 1
-    - _UseFresnel: 0
+    - _UseFresnel: 1
     - _VertexDisplacementNoiseScale: 1
     - _VertexDisplacementStrenght: 0
     - _VoronoiBlendingNoiseScale: 500
@@ -169,17 +178,26 @@ Material:
     - _VoronoiNormalMask: 1
     - _VoronoiNormalStrength: 1
     - _VoronoiRandomness: 1
-    - _VoronoiScale: 1.75
+    - _VoronoiScale: 1.5
     - _WorkflowMode: 1
+    - _ZTest: 4
     - _ZWrite: 1
+    - _ZWriteControl: 1
     m_Colors:
-    - _BaseColor: {r: 0.4424529, g: 0.07075471, b: 1, a: 1}
+    - _BaseColor: {r: 0.05197947, g: 0.033018887, b: 1, a: 1}
+    - _BaseColorA: {r: 0.03003788, g: 0, b: 1, a: 1}
+    - _BaseColorB: {r: 0.03137255, g: 0, b: 1, a: 1}
+    - _CellsColor: {r: 0, g: 0.57338464, b: 0.8490566, a: 1}
+    - _CentersColor: {r: 0.2689632, g: 0.13725491, b: 0.8, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgesColor: {r: 0, g: 17.049831, b: 47.937256, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FresnelColor: {r: 113.831924, g: 15.69812, b: 256, a: 1}
+    - _FresnelColor: {r: 0, g: 8.057453, b: 33.89676, a: 1}
+    - _PrimaryColor: {r: 0, g: 0.32773182, b: 8.47419, a: 1}
+    - _SecondaryColor: {r: 0.8676111, g: 0.14839067, b: 1.4980392, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _VariationColorA: {r: 0.05882353, g: 0.08176068, b: 0.74509805, a: 1}
-    - _VariationColorB: {r: 0.74509805, g: 0.05882353, b: 0.05882353, a: 1}
+    - _VariationColorA: {r: 0, g: 0.2997845, b: 0.49056602, a: 1}
+    - _VariationColorB: {r: 0, g: 1, b: 0.25882354, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2872668034259450556
